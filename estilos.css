@@ -1,0 +1,56 @@
+body{
+    background-image:linear-gradient(
+        0deg,
+        rgb(171, 255, 82),
+        rgb(178, 188, 199));
+    font-size: 20px;
+    margin: 0px 100px;
+
+    
+    background-repeat: no-repeat;
+    background-position: left bottom;
+    background-size: cover;
+    text-align: justify;
+}
+
+body, html{
+        min-height: 100%;
+}
+
+#logomarca {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.curiosidade{
+    background-image: url(imgs/favo-de-mel.png);
+    border: 1px solid rgb(254, 254, 8);
+    border-radius: 5px;
+    padding:15px;
+}
+
+.curiosidade > img{
+        float: left;
+        margin-right: 20px;
+
+}
+
+.casta-de-abelha-direita, .casta-de-abelha-esquerda{
+    border: 5px double rgb(254, 254, 8);
+    border-radius: 50%;
+}
+
+.casta-de-abelha-direita{
+    float:left;
+    margin-right: 20px;
+    shape-outside: circle(50%);
+
+}
+
+.casta-de-abelha-esquerda{
+    float:right;
+    margin-left: 20px;
+    shape-outside: circle(50%);
+
+}
