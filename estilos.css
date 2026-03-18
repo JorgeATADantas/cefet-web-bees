@@ -52,5 +52,12 @@ body, html{
     float:right;
     margin-left: 20px;
     shape-outside: circle(50%);
+    
 
+}
+
+#cabecalho{
+    background-color:rgb(255, 255, 255,0);
+    box-shadow: 4px 4px 4px #0003;
+    padding: 30px;
 }
