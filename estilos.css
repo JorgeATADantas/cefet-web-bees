@@ -28,6 +28,7 @@ body, html{
     border: 1px solid rgb(254, 254, 8);
     border-radius: 5px;
     padding:15px;
+    clear: both;
 }
 
 .curiosidade > img{
@@ -63,18 +64,19 @@ body, html{
 }
 
 a:link {
-  color: blue;  
+    color: black;
 }
 a:hover {
-  color: cyan;
-  text-decoration: none;
+    color: silver;
+    text-decoration: none;
 }
 a:active {
-  color: gold; 
+    color: yellow;
 }
 a:visited {
-  color: gray;
+    color: orange;
 }
+  
 
 a[href^="http"] {
   color: rgb(255, 0, 0);
